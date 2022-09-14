@@ -44,10 +44,7 @@ And a class SinglyLinkedList that defines a singly linked list by:
 - You are not allowed to import any module
 8. Print Square instance  
 Write a class Square that defines a square by: (based on 6-square.py)
-9. Compare 2 squares
-
-
+9. Compare 2 squares  
 Write a class Square that defines a square by: (based on 4-square.py)
 10. ByteCode -> Python #5  
 Write the Python class MagicClass that does exactly the same as the following Python bytecode:
-
