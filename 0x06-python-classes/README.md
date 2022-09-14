@@ -18,6 +18,8 @@ A class Square that defines a square by: (based on 4-square.py)
 A class Square that defines a square by: (based on 5-square.py)
 ## Advanced tasks
 7. Singly linked list
+
+
 Write a class Node that defines a node of a singly linked list by:
 - Private instance attribute: data:
   - property def data(self): to retrieve it
@@ -27,7 +29,9 @@ Write a class Node that defines a node of a singly linked list by:
 	 - property def next_node(self): to retrieve it
 	 - property setter def next_node(self, value): to set it:
 	   - next_node can be None or must be a Node, otherwise raise a TypeError exception with the message next_node must be a Node object
-- Instantiation with data and next_node: def __init__(self, data, next_node=None):  return
+- Instantiation with data and next_node: def __init__(self, data, next_node=None):
+
+
 And a class SinglyLinkedList that defines a singly linked list by:
 - Private instance attribute: head (no setter or getter)
 - Simple instantiation: def __init__(self):
@@ -41,4 +45,5 @@ Write a class Square that defines a square by: (based on 6-square.py)
 9. Compare 2 squares
 Write a class Square that defines a square by: (based on 4-square.py)
 10. ByteCode -> Python #5  
-Write the Python class MagicClass that does exactly the same as the following Python bytecode:  return
+Write the Python class MagicClass that does exactly the same as the following Python bytecode:
+
