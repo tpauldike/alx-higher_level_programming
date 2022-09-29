@@ -15,10 +15,10 @@ Contained in this directory is the very project that had its General objectives 
 `super` built-in functions
 
 The only allowed editors were `vi`, `vim`, `emacs` and all files were
-intepreted in ***Ubuntu 20.04 LTS using python3 (version 3.8.5)
+intepreted in ***Ubuntu 20.04 LTS using python3 (version 3.8.5)***
 
 ## Tasks
-Contained in the sub-directory ***[tests]***(./tests) are test files for
+Contained in the sub-directory [***tests***](./tests) are test files for
 [task 1](./1-my_list.py) and [task 7](./7-base_geometry.py).
 
 There were 12 mandatory tasks and 2 advanced task as follows:
