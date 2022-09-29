@@ -5,7 +5,7 @@ got me practicing how to automate certain processes in a program. It had 13
 mandatory tasks and 2 advanced tasks, as follows:
 
 ## Tasks
-#### 0. Read file
+#### [0. Read file](./0-read_file.py)
 Write a function that reads a text file (`UTF8`) and prints it to stdout:
 
 - Prototype: `def read_file(filename=""):`
@@ -24,7 +24,7 @@ number of characters written:
 - Your function should overwrite the content of the file if it already exists.
 - You are not allowed to import any module
 
-#### 2. Append to a file
+#### [2. Append to a file](./2-append_write.py)
 Write a function that appends a string at the end of a text file (`UTF8`)
 and returns the number of characters added:
 
@@ -40,7 +40,7 @@ Write a function that returns the JSON representation of an object (string):
 - Prototype: `def to_json_string(my_obj):`
 - You don’t need to manage exceptions if the object can’t be serialized.
 
-#### 4. From JSON string to Object
+#### [4. From JSON string to Object](./4-from_json_string.py)
 Write a function that returns an object (Python data structure) represented
 by a JSON string:
 
@@ -48,7 +48,7 @@ by a JSON string:
 - You don’t need to manage exceptions if the JSON string doesn’t represent
 an object
 
-#### 5. Save Object to a file
+#### [5. Save Object to a file](./5-save_to_json_file.py)
 Write a function that writes an Object to a text file, using a JSON
 representation:
 
@@ -57,7 +57,7 @@ representation:
 - You don’t need to manage exceptions if the object can’t be serialized.
 - You don’t need to manage file permission exceptions.
 
-#### 6. Create object from a JSON file
+#### [6. Create object from a JSON file](./6-load_from_json_file.py)
 Write a function that creates an Object from a “JSON file”:
 
 - Prototype: `def load_from_json_file(filename):`
@@ -66,7 +66,7 @@ Write a function that creates an Object from a “JSON file”:
 an object.
 - You don’t need to manage file permissions / exceptions.
 
-#### 7. Load, add, save
+#### [7. Load, add, save](./7-add_item.py)
 Write a script that adds all arguments to a Python list, and then save them
 to a file:
 
@@ -76,7 +76,7 @@ to a file:
 - If the file doesn’t exist, it should be created
 - You don’t need to manage file permissions / exceptions.
 
-#### 8. Class to JSON
+#### [8. Class to JSONb](./8-class_to_json.py)
 Write a function that returns the dictionary description with simple data
 structure (list, dictionary, string, integer and boolean) for JSON
 serialization of an object:
@@ -87,7 +87,7 @@ serialization of an object:
 string, integer and boolean
 - You are not allowed to import any module
 
-#### 9. Student to JSON
+#### [9. Student to JSON](./9-student.py)
 Write a class `Student` that defines a student by:
 
 - Public instance attributes:
@@ -100,7 +100,7 @@ Write a class `Student` that defines a student by:
 representation of a `Student` instance (same as `8-class_to_json.py`)
 - You are not allowed to import any module
 
-#### 10. Student to JSON with filter
+#### [10. Student to JSON with filter](./10-student.py)
 Write a class `Student` that defines a student by: (based on `9-student.py`)
 
 - Public instance attributes:
@@ -117,7 +117,7 @@ dictionary representation of a `Student` instance (same as
 	- Otherwise, all attributes must be retrieved
 - You are not allowed to import any module
 
-#### 11. Student to disk and reload
+#### [11. Student to disk and reload](./11-student.py)
 Write a class `Student` that defines a student by: (based on `10-student.py`)
 - Public instance attributes:
   - `first_name`
@@ -138,7 +138,7 @@ attributes of the `Student` instance:
 	   - A dictionary value will be the value of the public attribute
 - You are not allowed to import any module
 
-#### 12. Pascal's Triangle
+#### [12. Pascal's Triangle](./12-pascal_triangle.py)
 Technical interview preparation:
 
 You are not allowed to google anything
@@ -151,7 +151,7 @@ integers representing the Pascal’s triangle of `n`:
 - You are not allowed to import any module
 
 ## Advanced tasks
-#### 13. Search and update
+#### [13. Search and update](./100-append_after.py)
 Write a function that inserts a line of text to a file, after each line
 containing a specific string (see example):
 
@@ -160,7 +160,7 @@ containing a specific string (see example):
 - You don’t need to manage `file permission` or `file doesn't exist` exceptions.
 - You are not allowed to import any module
 
-#### 14. Log parsing
+#### [14. Log parsing](./101-stats.py)
 Write a script that reads stdin line by line and computes metrics:
 
 ---
