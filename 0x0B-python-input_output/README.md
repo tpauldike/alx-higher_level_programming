@@ -162,4 +162,5 @@ containing a specific string (see example):
 
 #### 14. Log parsing
 Write a script that reads stdin line by line and computes metrics:
+
 ---
