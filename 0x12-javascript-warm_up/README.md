@@ -170,3 +170,8 @@ guillaume@ubuntu:~/0x12$ ./103-object_fct.js
 { type: 'object', value: 15, incr: [Function] }
 guillaume@ubuntu:~/0x12$
 ```
+-----
+Author: **Topman Paul-Dike**
+- GitHub: [tpauldike](https://github.com/tpauldike)
+- Email: [topman4loveworld@gmail.com](mailto:topman4loveworld@gmail.com)
+- Alternative email: [topmanrloveworld@yahoo.com](mailto:topman4loveword@yahoo.com)
