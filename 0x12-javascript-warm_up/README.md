@@ -16,3 +16,5 @@ While doing this project, I learned:
 - Arithmetic operators and how to use them
 - How to manipulate dictionary
 - How to import a file
+
+I did this project with the text editor `emacs` as none other (except `vi` and `vim`) were allowed. It was done in **Ubuntu 20.04 LTS** using `node` (version 14.21.1) and all the code were made `semistandard` compliant (version 16.0.1)
