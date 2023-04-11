@@ -1,14 +1,6 @@
 #!/usr/bin/node
-function factr (a) {
-  if (a === 1) {
-		return (a);
-	}
-	return (a * factr(a-1));
+function factr (n) {
+  return n === 0 || isNaN(n) ? 1 : n * factr(n - 1);
 }
-
-if (process.argv.length < 2) {
-  console.log(factr(1));
-} else {
-	const arg1 = parseInt(process.argv[2]);
-  console.log(factr(arg1));
-}
+const arg1 = parseInt(process.argv[2])
+console.log(factr(arg1));
