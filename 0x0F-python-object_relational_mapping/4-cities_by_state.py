@@ -19,7 +19,7 @@ if __name__ == '__main__':
         cursor.execute("SELECT cities.id, cities.name, states.name \
                                 FROM cities JOIN states ON cities.state_id \
                                 = states.id ORDER BY cities.id ASC")
-        cities = cursor.fetchall()
+    cities = cursor.fetchall()
 
     if cities is not None:
         for row in cities:
