@@ -1,28 +1,28 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """
-    The module fot the function - find_peak
+    Technical interview preparation:
 """
 
 
-def find_peak(list_of_integers):
+def find_peak(integer):
     """
-        Finds the peak in a list of unsorted integers;
-        checks if the peak is more than one.
+        A function that finds a peak in a list of unsorted integers
     """
-    if list_of_integers == []:
+    length = len(integer)
+    if length == 0:
         return None
-
-    length = len(list_of_integers)
     if length == 1:
-        return list_of_integers[0]
-    elif length == 2:
-        return max(list_of_integers)
+        return (integer[0])
+    if length == 2:
+        return integer[0] if integer[0] >= integer[1] else integer[1]
 
-    mid = int(length / 2)
-    peak = list_of_integers[mid]
-    if peak > list_of_integers[mid - 1] and peak > list_of_integers[mid + 1]:
-        return peak
-    elif peak < list_of_integers[mid - 1]:
-        return find_peak(list_of_integers[:mid])
-    else:
-        return find_peak(list_of_integers[mid + 1:])
+    for idx in range(0, length):
+        value = integer[idx]
+        if (idx > 0 and idx < length - 1 and
+                integer[idx + 1] <= value and integer[idx - 1] <= value):
+                return value
+        elif idx == 0 and integer[idx + 1] <= value:
+            return value
+        elif idx == length - 1 and numbr[idx - 1] <= value:
+            return value
+    return pick
